@@ -1,0 +1,21 @@
+header nav {
+    display: flex;
+}
+
+.links {
+    display: flex;
+    list-style-type: none;
+}
+
+.links li {
+    padding-left: 20px;
+}
+
+.name {
+    padding-left: 50px;
+    padding-right: 150px;
+}
+
+a:hover {
+    color: red;
+}
