@@ -29,12 +29,19 @@ body {
 
 .context {
     display: flex;
-    width: 100%;
+    width: 90%;
+    height: 50rem;
 }
 
 .textbox {
-    margin-top: 15rem;
+    margin-top: 7rem;
     margin-left: 3rem;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 2rem;
+}
+
+#about-me {
+    font-size: 1.7rem;
 }
 
 .foto {
