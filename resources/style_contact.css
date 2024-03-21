@@ -1,0 +1,30 @@
+/* HEADER */
+
+header nav {
+    display: flex;
+    font-family: 'Madimi One', sans-serif;
+}
+
+.links {
+    display: flex;
+    list-style-type: none;
+}
+
+.links li {
+    padding-left: 20px;
+}
+
+.name {
+    padding-left: 50px;
+    padding-right: 150px;
+}
+
+a:hover {
+    color: red;
+}
+
+/* MAIN */
+
+body {
+    background-color: hsla(180, 14%, 46%, 0.327);
+}
