@@ -19,6 +19,10 @@ header nav {
     padding-right: 150px;
 }
 
+.links li a {
+    text-decoration: none;
+}
+
 a:hover {
     color: red;
 }

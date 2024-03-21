@@ -23,12 +23,11 @@
         </nav>
     </header>
     <main>
-        <div>
+        <div class="boxes">
             <section class="about-me-box context"> 
                 <div class="textbox">
                     <h1>Hi, i'm Serhii Holovenko</h1>
                     <p id="about-me">Ukrainian emigrant living in Warsaw. Most of my time is spent working on repairing cars at the railway depot.</p>
-                    <p id="about-me">One day my beloved Alina made my dream come true. Since then I started studying programming languages.</p>
                     <p id="about-me">In my free time I study, love active recreation, like spend time with children and teach others something useful. I also enjoy drawing and spending time with my family.</p>
                     <p id="about-me">Interesting fact! I'm learning programming <span id="time-contaner">NdN</span> seconds!</p>
                 </div>
@@ -36,9 +35,11 @@
             </section>
             <section class="textbox">
                 <h2>Projects</h2>
-                <details>
+                <details class="first">
                     <summary>First web-site</summary>
-                    <img src="./resources/img/screenshot-of-my-site.png" alt="screenshot of web page">
+                    <div>
+                        <img src="./resources/img/screenshot-of-my-site.png" alt="screenshot of web page">
+                    </div>
                 </details>
                 <details>
                     <summary>Second project</summary>
@@ -49,9 +50,9 @@
                     <p>In production... zzz</p>
                 </details>
             </section>
-            <section>
+            <section class="skills textbox">
                 <h2>Skills</h2>
-                <div class="contener_for_skills">
+                <div class="icons-contener">
                     <i class="fa-brands fa-html5"></i>
                     <i class="fa-brands fa-github"></i>
                     <i class="fa-brands fa-css3-alt"></i>

@@ -19,6 +19,10 @@ header nav {
     padding-right: 150px;
 }
 
+.links li a {
+    text-decoration: none;
+}
+
 a:hover {
     color: red;
 }
@@ -31,13 +35,13 @@ body {
 
 .context {
     display: flex;
-    width: 90%;
-    height: 50rem;
+    width: 100%;
+    
 }
 
 .textbox {
-    margin-top: 7rem;
-    margin-left: 3rem;
+    width: 45rem;
+    margin: 3rem;
     font-family: 'Arsenal', sans-serif;
     font-size: 2rem;
 }
@@ -47,6 +51,19 @@ body {
 }
 
 .foto {
-    width: auto;
-    height: 500px;
+    margin-left: 12rem;
+    height: 33rem;
+}
+
+.first div img {
+    width: 100%;
+    padding: 1rem;
+    border: 0.5rem;
+    border-radius: 15%;
+    border-style: solid;
+    border-color: #6FC9FC;
+}
+
+.icons-contener i {
+    padding: 1rem;
 }
