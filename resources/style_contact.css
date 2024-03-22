@@ -32,3 +32,30 @@ a:hover {
 body {
     background-color: hsla(180, 14%, 46%, 0.327);
 }
+
+.fa-solid {
+    letter-spacing: 2px;
+}
+
+.social {
+    margin: 3rem;
+    font-family: 'Arsenal', sans-serif;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.linkedid {
+    padding: 3rem;
+    border-style: solid;
+    border-radius: 7%;
+}
+
+.github {
+    padding: 3rem;
+    border-style: solid;
+    border-radius: 7%;
+}
