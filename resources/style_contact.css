@@ -45,7 +45,8 @@ body {
 
 .boxes {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 8rem;
 }
 
 .linkedid {
