@@ -17,7 +17,35 @@
         display: flex;
         justify-content: space-evenly;
     }
+
+    #name {
+        padding-right: 50px;
+    }
         
+}
+
+@media only screen and (max-width: 425px) {
+    #about-me-box {
+        display: block;
+    }
+
+    .name {
+        display: none;
+    }
+
+    #textbox {
+        font-size: 1rem;
+        width: 100%;
+        margin: 1rem;
+    }
+
+    #textbox h1 {
+        font-size: 2rem;
+    }
+
+    #photo {
+        margin-top: 1rem;
+    }
 }
 
 /* HEADER */
